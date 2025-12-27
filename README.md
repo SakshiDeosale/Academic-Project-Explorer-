@@ -30,35 +30,24 @@ Academic Project Explorer is a React-based web application designed to help stud
 
 ---
 
-⚙️ Installation & Run Process
-1️⃣ Clone the Repository
-git clone https://github.com/SakshiDeosale/Academic-Project-Explorer-.git
+## ⚙️ Installation & Setup Guide
 
-2️⃣ Navigate to Project Folder
+Follow these steps to get the **Academic Project Explorer** up and running on your local machine.
+
+### 1️⃣ Clone the Repository
+Open your terminal and run the following command:
+```bash
+git clone [https://github.com/SakshiDeosale/Academic-Project-Explorer-.git](https://github.com/SakshiDeosale/Academic-Project-Explorer-.git)
 cd Academic-Project-Explorer-
 
-3️⃣ Start the Backend Server
 cd backend
+# Install dependencies (if first time)
+npm install 
+# Start the server
 nodemon server.js
 
-
-⚠️ Ensure Node.js and nodemon are installed.
-If nodemon is not installed, run:
-
-npm install -g nodemon
-
-4️⃣ Start the Frontend (React App)
-
-Open a new terminal and run:
-
 cd frontend
+# Install dependencies
 npm install
+# Start the application
 npm start
-
-🌐 Access the Application
-
-Once both servers are running, open your browser:
-
-http://localhost:3000
-
-
